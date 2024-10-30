@@ -1,0 +1,56 @@
+@charset "UTF-8";
+html {
+    background: #e8eef4;
+    margin: 0 20px;
+}
+
+body {
+    margin: 65px auto 24px;
+    box-shadow: none;
+    background: #e8eef4;
+    padding: 0;
+    max-width: 600px;
+}
+
+.hosting-widget h1,
+.hosting-widget h2,
+.hosting-widget h3,
+.hosting-widget h4,
+.hosting-widget h5,
+.hosting-widget h6 {
+    color: #666;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.hosting-widget label {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.hosting-widget .form-control.error {
+    border-color: #FF6C3A;
+}
+
+.hosting-widget .box {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13);
+    padding: 2em;
+    margin: 0 0 20px;
+    background: #fff;
+    overflow: hidden;
+    zoom: 1;
+    text-align: left;
+}
+
+.hosting-widget #hosting-register-form > table > tbody > tr > td input,
+.hosting-widget #hosting-register-form > table > tbody > tr > td select {
+    margin: 5px auto;
+}
+
+.hosting-widget #hosting-register-form .inline-error {
+    font-size: 85%;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
